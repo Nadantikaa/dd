@@ -20,7 +20,7 @@ function setup() {
 
   Engine.run(engine);
   ground = new Ground();
-  stand1 = new Stand(390,300,250,10);
+  //stand1 = new Stand(390,300,250,10);
   stand2 = new Stand(700,200,200,10);
  
   
@@ -75,11 +75,11 @@ function draw() {
   text("Drag the Hexagon Stone and Release it, to launch it towards the blocks",100,30);
 
   ground.display();
-  stand1.display();
+  //stand1.display();
   stand2.display();
   strokeWeight(2);
   stroke(15);
-  fill("yellow");
+  fill("green");
   block1.display();
   block2.display();
   block3.display();
